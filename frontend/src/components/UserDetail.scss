@@ -1,0 +1,11 @@
+// src/components/UserDetail.scss
+
+@import '../styles/variables'; // Adjust path if necessary
+
+h1 {
+    color: $primary-color;
+}
+
+p {
+    margin: 5px 0;
+}

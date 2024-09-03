@@ -1,0 +1,8 @@
+// SCSS Mixins
+@mixin button-styles {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}

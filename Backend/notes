@@ -1,0 +1,34 @@
+cd server 
+create Server.js
+npm init -y
+
+goto npm website search 
+
+npm install express
+npm install -g nodemon for auto update
+NPM install dotenv for security
+npm i mongoose for databasse connect
+
+
+npm start
+
+controller 
+
+if you need doubt in controller about model u can find in mongoose website 
+like create, delete, find query based all about express moongoose available
+https://mongoosejs.com/docs
+
+
+client
+
+create folder frontend
+cd frontend npx-create-app  client
+cd client
+npm start
+
+
+databasse
+in server model
+
+
+https://mongoosejs.com/docs/index.html

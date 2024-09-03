@@ -1,0 +1,31 @@
+// src/components/UserForm.scss
+
+@import '../styles/variables'; // Adjust the path based on your folder structure
+@import '../styles/mixins';    // Import mixins if used
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    @include button-styles; // Ensure mixin is imported
+    background-color: $primary-color; // Variable must be defined in imported file
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
